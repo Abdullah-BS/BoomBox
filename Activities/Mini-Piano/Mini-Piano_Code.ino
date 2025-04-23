@@ -10,8 +10,8 @@
 // Pushbuttons pins
 int INPUT_BUTTON_C_PIN = ####;    // TODO
 int INPUT_BUTTON_D_PIN = ####;    // TODO
-// int INPUT_BUTTON_E_PIN = ####;    // TODO
-// int INPUT_BUTTON_F_PIN = ####;    // TODO
+int INPUT_BUTTON_E_PIN = ####;    // TODO
+int INPUT_BUTTON_F_PIN = ####;    // TODO
 
 // Speaker pin
 int OUTPUT_PIEZO_PIN = ####;    // TODO
@@ -19,8 +19,8 @@ int OUTPUT_PIEZO_PIN = ####;    // TODO
 // LEDs pins
 int LED_1 = ####;    // TODO
 int LED_2 = ####;    // TODO
-// int LED_3 = ####;    // TODO
-// int LED_4 = ####;    // TODO
+int LED_3 = ####;    // TODO
+int LED_4 = ####;    // TODO
 
 const boolean _buttonsAreActiveLow = true; 
 
@@ -59,8 +59,8 @@ void loop() {
     noTone(OUTPUT_PIEZO_PIN);
     digitalWrite(LED_1, LOW);
     digitalWrite(LED_2, LOW);
-    // digitalWrite(LED_3, LOW);
-    // digitalWrite(LED_4, LOW);
+    digitalWrite(LED_3, LOW);
+    digitalWrite(LED_4, LOW);
   }
 }
 
